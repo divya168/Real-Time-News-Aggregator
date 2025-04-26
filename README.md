@@ -1,21 +1,26 @@
-# Soroban Project
+# Real-Time News Aggregator
 
-## Project Structure
+## 📌 Project Description
 
-This repository uses the recommended structure for a Soroban project:
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+The Real-Time News Aggregator is a decentralized Soroban-based smart contract that allows users or publishers to post and retrieve news content on-chain. It provides a basic framework to record verified news with metadata like source and timestamp, ensuring transparency, immutability, and traceability in news publishing.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## 🎯 Project Vision
+
+To create a decentralized platform where news articles can be stored transparently and accessed in real-time, preventing misinformation and promoting trust in the media through blockchain-backed verification.
+
+## ✨ Key Features
+
+- ✅ **Post News:** Admins or publishers can post news articles along with the title and source.
+- 🔎 **Retrieve News by ID:** View details of a specific article using a unique news ID.
+- 🧮 **Track Total News Entries:** Get the count of all news articles posted on the platform.
+- ![Screenshot (19)](https://github.com/user-attachments/assets/146ca632-82df-4bf6-be7a-21739e2ea07e)
+
+
+## 🚀 Future Scope
+
+- 📢 Integration with decentralized oracles for real-time news feed updates.
+- 🧑‍⚖️ Community voting system to rate the authenticity of news.
+- 🌐 Multi-language support for global reach.
+- 📜 Categorization and tagging of news (e.g., Sports, Politics, Technology).
+- 🧩 Front-end dApp interface with real-time streaming using IPFS or off-chain storage solutions.
+
